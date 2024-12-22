@@ -1,0 +1,44 @@
+.stopwatch-container {
+    text-align: center;
+    background: rgb(130, 115, 116);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(218, 95, 95, 0.1);
+    max-width: 400px;
+    margin: 2rem auto;
+}
+
+.time-display {
+    font-size: 3.5rem;
+    font-family: monospace;
+    margin: 2rem 0;
+}
+
+.controls button {
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start {
+    background-color: #4bbd4e;
+    color: white;
+}
+
+.stop {
+    background-color: #f44336;
+    color: white;
+}
+
+.reset {
+    background-color: #368ee1;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
